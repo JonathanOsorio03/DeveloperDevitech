@@ -1,11 +1,18 @@
-import { useState } from 'react'
-
+import  { Welcome,data } from '../public/data/data.json'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div >
-      hola mundo
+      {
+        data.map((item:Welcome) => {
+          return (
+            <div key={item.first_name}>
+              <img src={item.picture} alt="img" />
+              <h1>{item.first_name}</h1>
+            </div>
+          )
+        })
+      }
     </div>
   )
 }
