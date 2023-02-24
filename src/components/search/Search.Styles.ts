@@ -5,7 +5,7 @@ export const sidebar = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
+    width: 76%;
     > h1{
     font-size: 2.5rem;
     font-weight: 700;
@@ -25,7 +25,12 @@ export const contIcon=styled.div`
     justify-content: center;
     font-size: 1.5rem;
     gap: .5rem;
+    cursor: pointer;
+
     .icon{
         font-size: 3rem;
+        ${props => props.theme.breakpoints.xs} {
+            font-size: 6rem;
+        }
     }
 `;
