@@ -22,7 +22,6 @@ export const Input = styled.input`
     border: none;
     font-size: 1rem;
     width: 80%;
-    background-color: red;
     ::placeholder{
         font-size: 1rem;
         font-weight: 500;
