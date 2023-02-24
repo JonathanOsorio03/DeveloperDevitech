@@ -1,7 +1,7 @@
 [{
     "first_name": "Jonathan",
     "last_name": "Osorio",
-    "picture": "../public/assets/JonathanOsorio.png",
+    "picture": "../src/assets/JonathanOsorio.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -12,7 +12,7 @@
 {
     "first_name": "Daniel",
     "last_name": "Escobar",
-    "picture": "../public/assets/DanielEscobar.png",
+    "picture": "../src/assets/DanielEscobar.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -23,7 +23,7 @@
 {
     "first_name": "Sebastian",
     "last_name": "Nevado",
-    "picture": "../public/assets/SebastianNevado.png",
+    "picture": "../src/assets/SebastianNevado.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -34,7 +34,7 @@
 {
     "first_name": "Edwin",
     "last_name": "Lopez",
-    "picture": "../public/assets/EdwinLopez.png",
+    "picture": "../src/assets/EdwinLopez.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -45,7 +45,7 @@
 {
     "first_name": "Gian",
     "last_name": "Martinez",
-    "picture": "../public/assets/GianMartinez.png",
+    "picture": "../src/assets/GianMartinez.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -56,7 +56,7 @@
 {
     "first_name": "Carlos",
     "last_name": "Rubio",
-    "picture": "../public/assets/CarlosRubio.png",
+    "picture": "../src/assets/CarlosRubio.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -67,7 +67,7 @@
 {
     "first_name": "Fabian",
     "last_name": "Garcia",
-    "picture": "../public/assets/FabianGarcia.png",
+    "picture": "../src/assets/FabianGarcia.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -78,7 +78,7 @@
 {
     "first_name": "Yowin",
     "last_name": "Mera",
-    "picture": "../public/assets/YowinMera.png",
+    "picture": "../src/assets/YowinMera.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -89,7 +89,7 @@
 {
     "first_name": "Jhoeykol",
     "last_name": "Cera",
-    "picture": "../public/assets/JhoeykolCera.png",
+    "picture": "../src/assets/JhoeykolCera.png",
     "status": "online",
     "task":{
         "title": "Task 1",
@@ -100,7 +100,7 @@
 {
     "first_name": "Luis",
     "last_name": "Ortiz",
-    "picture": "../public/assets/LuisOrtiz.png",
+    "picture": "../src/assets/LuisOrtiz.png",
     "status": "online",
     "task":{
         "title": "Task 1",
