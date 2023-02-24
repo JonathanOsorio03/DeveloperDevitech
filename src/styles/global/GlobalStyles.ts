@@ -54,6 +54,7 @@ export const container=styled.div`
     justify-content: center;
     gap: 3rem;
     padding: 4.375rem;
+    width: 100%;
 `
 export const cards=styled.div`
     display:grid;
