@@ -1,13 +1,14 @@
 import data from'./data/data.json';
-import './App.css';
+import * as SC from './styles/global/GlobalStyles';
 import { Card, Search } from './components';
 import { Welcome } from './interfaces/interfaces';
+import './App.css';
 function App() {
 
   return (
-    <div className='container'>
+      <SC.container>
       <Search />
-      <div className='cards'>
+      <SC.cards>
         {
           data.map((item: Welcome) => {
             return (
@@ -15,8 +16,9 @@ function App() {
             )
           })
         }
-      </div>
-    </div>
+      </SC.cards>
+    </SC.container>
+    
   )
 }
 

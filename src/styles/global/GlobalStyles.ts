@@ -1,31 +1,34 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     html {
-        box-sizing: border-box;
-    }
-    *, *:before, *:after {
-        box-sizing: inherit;
-    }
+    box-sizing: border-box;
     
-    body{
-        font-family: 'Raleway';
-        color: var(--color-tertiary);
-        user-select: none;
-    }
-    input {
-    outline: none
-    }
-    * {
-        margin: 0;
-        padding: 0;
-    }
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway';
+    color: var(--color-tertiary);
+    user-select: none;
+    background-color: var(--color-primary);
+
+}
+input {
+outline: none
+}
+* {
+    margin: 0;
+    padding: 0;
+}
 ul,ol,li{
-        list-style: none;
+    list-style: none;
 }
 a{
-    text-decoration:none;
-    color: #291507;
+text-decoration:none;
+color: #291507;
 }
 html{
         font-size: 16px;
@@ -44,3 +47,23 @@ html{
     }
 
 `;
+export const container=styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 4.375rem;
+`
+export const cards=styled.div`
+    display:grid;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+    gap: 3rem;
+    cursor: pointer;
+    ${props => props.theme.breakpoints.md} {
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
+    }
+    ${props => props.theme.breakpoints.xs} {
+        grid-template-columns: repeat(1, minmax(auto, 1fr));
+    }
+`
