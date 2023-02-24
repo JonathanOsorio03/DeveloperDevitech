@@ -1,20 +1,3 @@
-@import url(./styles/index.css);
+@import url('./styles/vars/index.css');
 
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4.375rem;
-    gap: 3rem;
-    background-color: var(--color-primary);
-    height: 100vh;
-}
-.cards{
-    display:grid;
-    grid-template-columns: repeat(3, minmax(auto, 1fr));
-    gap: 3rem;
-    cursor: pointer;
-}

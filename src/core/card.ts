@@ -6,12 +6,12 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     background-color: var(--color-secondary);
-    height: 200px;
-    width: 350px;
+    height: 12.5rem;
+    width: 21.875rem;
     border-radius: 10px;
     box-shadow: 3px 2px 3px  #8b87875e;
-    margin: 5px;
-    padding: 5px;
+    margin: 0.313rem;
+    padding: 0.313rem;
     gap: 1rem;
     transition-duration: .5s;
     transition-timing-function: ease;

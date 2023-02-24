@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider theme={themes}>
       <App />
-      <GlobalStyles />
+    <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>,
 )
