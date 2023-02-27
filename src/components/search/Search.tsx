@@ -5,7 +5,7 @@ import * as SC from './Search.Styles';
 export const Search = () => {
     return (
         <SC.sidebar>
-        <SC.contIcon><HiUserGroup className="icon"/><h1>Estado de los desarrolladores</h1></SC.contIcon>
+        <SC.contIcon><div><HiUserGroup className="icon"/></div><div>Estado de los desarrolladores</div></SC.contIcon>
         <ContInput>
             <Input type="text" placeholder='Buscar' />
             <BiSearchAlt/>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { interfacesAvatar } from "../interfaces/interfaces";
 
 export const Container = styled.div`
     display: flex;
@@ -41,4 +42,19 @@ export const Container = styled.div`
     width:100%;
     gap: 1rem;
 }
+`;
+export const Avatar=styled.div<interfacesAvatar>`
+    position: relative;
+    filter: ${({backgroundColor})=>backgroundColor==="black"?"grayscale(1)":"none"};
+        ::before{
+        content: "";
+        position: absolute;
+        top: .1rem;
+        right: .5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: ${({backgroundColor})=>backgroundColor};
+        border-radius: 50%;
+        border: 1px solid var(--color-secondary);
+    }
 `;
