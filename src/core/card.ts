@@ -33,6 +33,7 @@ export const Container = styled.div`
         font-weight: 500;
         color: #919191ad;
     }
+    
 }
     .contImgButt{
     display: flex;
@@ -42,6 +43,14 @@ export const Container = styled.div`
     width:100%;
     gap: 1rem;
 }
+.content{
+        margin:10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: .5rem;
+    }
 `;
 export const Avatar=styled.div<interfacesAvatar>`
     position: relative;

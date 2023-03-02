@@ -1,2 +1,2 @@
 export * from './Developers'
-export * from './Developers.Styles'
+export * from './Developers.styles'

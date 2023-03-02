@@ -1,18 +1,17 @@
 import { Card, Search } from '../../components';
-import { data } from '../../data/data';
+import  data  from '../../data/data';
 import { Welcome } from '../../interfaces/interfaces';
-import * as SC from './Developers.Styles';
+import * as SC from './Developers.styles';
 
-export const Developers = ({ Department, Title }: any) => {
+export const Developers = () => {
 
-  const item = data.filter(item => item.department == Department)
 
   return (
     <SC.container>
-      <Search Title={Title} />
+      <Search  />
       <SC.cards>
         {
-          item.map((item: Welcome) => {
+          data.map((item: Welcome) => {
             return (
               <Card {...item} key={item.first_name} />
             )

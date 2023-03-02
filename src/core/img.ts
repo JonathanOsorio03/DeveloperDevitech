@@ -8,5 +8,6 @@ export const Img = styled.img<style>`
     border: 4px solid #EEEEEE;
     box-shadow: 5px 3px 4px  #ccccccf0;
     background-color: #FFFFFF;
+    
 `;
 

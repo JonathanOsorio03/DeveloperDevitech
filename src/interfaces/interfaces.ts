@@ -1,4 +1,5 @@
 export interface Welcome {
+    id: string;
     first_name: string;
     last_name: string;
     picture: any;
@@ -25,4 +26,10 @@ export const enum status {
 export interface style {
     height?: string,
     width?: string
+}
+
+export interface interfacesCircle {
+    backgroundColor?: string;
+    height?: string;
+    width?: string;
 }
