@@ -3,13 +3,16 @@ import { data } from '../../data/data';
 import { Welcome } from '../../interfaces/interfaces';
 import * as SC from './Developers.Styles';
 
-export const Developers = () => {
+export const Developers = ({ Department, Title }: any) => {
+
+  const item = data.filter(item => item.department == Department)
+
   return (
     <SC.container>
-      <Search />
+      <Search Title={Title} />
       <SC.cards>
         {
-          data.map((item: Welcome) => {
+          item.map((item: Welcome) => {
             return (
               <Card {...item} key={item.first_name} />
             )
